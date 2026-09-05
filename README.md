@@ -5,33 +5,29 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Website landing page profesional untuk **jasa pembuatan aplikasi dan website** milik **JasaKita**. Dibangun dengan HTML, CSS, dan JavaScript murni — tanpa framework — dengan desain gelap premium beraksen hijau limau yang modern dan responsif.
+Website landing page profesional untuk **jasa pembuatan aplikasi dan website** milik **JasaKita**. Dibangun dengan HTML, CSS, dan JavaScript murni — tanpa framework — dengan desain light modern bergaya glassmorphism beraksen biru yang bersih dan responsif.
 
 ---
 
 ## ✨ Fitur
 
 - **Sticky navbar** dengan efek blur dan menu hamburger mobile
-- **Hero section** — headline bergaya stroke outline, tagline, CTA, dan statistik dengan animasi counter
-  - 120+ proyek selesai
-  - 8+ tahun pengalaman
-  - 98% klien puas
-  - 24/7 dukungan aktif
-- **Marquee teknologi** berjalan (React, Next.js, Laravel, Flutter, dll.)
-- **6 layanan** dalam layout bento grid:
+- **Hero section** — badge "Jasa Pembuatan Aplikasi dan Website", headline gradient, CTA, dan meta badges (Status, Level, Pengalaman, Lokasi)
+- **Marquee layanan** berjalan (Website, Aplikasi Web, Mobile, UI/UX, E-Commerce, Maintenance)
+- **6 layanan** dalam kartu glassmorphism:
   - Website Company Profile
   - Aplikasi Web
   - Aplikasi Mobile
   - Desain UI/UX
   - E-Commerce dan Marketplace
   - Maintenance dan Support
-- **4 langkah proses** pengerjaan: Discovery → Desain → Pengembangan → Peluncuran
-- **8 teknologi** pilihan: Frontend, Backend, Mobile, Database, Deploy, Integrasi, Desain, Analitik
+- **Keunggulan** dengan progress bar animasi (Pengembangan Web, Desain UI/UX, Aplikasi Mobile, Manajemen Proyek)
+- **4 langkah proses** pengerjaan: Konsultasi → Desain → Pengembangan → Peluncuran
+- **8 teknologi** pilihan dalam chip: React, Laravel, Flutter, PostgreSQL, Docker, Midtrans, Figma, GA4
 - **3 testimoni** klien
-- **CTA banner** ajakan wujudkan ide dalam 30 hari
 - **Form kontak** dengan dropdown jenis proyek dan notifikasi toast
 - **Footer** lengkap: navigasi, link perusahaan, legal, dan hak cipta
-- **Custom cursor**, efek grain/texture, grid pattern, dan animasi reveal on-scroll
+- **Glassmorphism cards**, ikon Font Awesome, radial gradient pastel latar, dan animasi reveal on-scroll
 - **Fully responsive** — mobile, tablet, dan desktop
 
 ---
@@ -91,23 +87,22 @@ Atau cukup buka file `index.html` langsung di browser — semua aset sudah inlin
 
 ## 🎨 Desain
 
-- **Tema**: Gelap premium `#0a0d0b` dengan aksen hijau limau `#c8f542`
-- **Tipografi**:
-  - *Unbounded* — heading display
-  - *Schibsted Grotesk* — teks deskripsi
-  - - *JetBrains Mono* — label, tombol, dan detail teknis
-- **Detail visual**: noise texture (grain), grid pattern latar, radial glow, custom cursor, badge/eyebrow mono uppercase
+- **Tema**: Light modern dengan radial gradient pastel (hijau mint, biru, ungu, oranye) di latar
+- **Aksen**: Biru `#2563eb` dan biru muda `#0ea5e9`
+- **Kartu**: Glassmorphism — `rgba(255,255,255,0.6)` + `backdrop-filter: blur(12px)` + border putih + bayangan halus
+- **Tipografi**: *Inter* untuk seluruh teks
+- **Ikon**: Font Awesome 6.5.1
+- **Detail visual**: badge/eyebrow pill, section bernomor, progress bar gradient, chip teknologi, marquee layanan
 
 ---
 
 ## ⚙️ Fitur JavaScript (`script.js`)
 
-- Custom cursor (dot + trailing ring) dengan efek hover pada elemen interaktif
-- Navbar berubah saat scroll (efek blur + border bottom)
-- Menu mobile hamburger dengan animasi ikon
-- Marquee teknologi di-duplikasi agar loop mulus
+- Navbar berubah saat scroll (efek blur + shadow)
+- Menu mobile hamburger
+- Marquee layanan di-duplikasi agar loop mulus
 - Animasi reveal on-scroll via IntersectionObserver
-- Counter statistik animasi saat terlihat di viewport
+- **Progress bar animasi** saat section keunggulan terlihat di viewport
 - Validasi dan toast notifikasi pada form kontak
 
 ---
