@@ -14,7 +14,7 @@ Website landing page profesional untuk **jasa pembuatan aplikasi dan website** m
 - **Sticky navbar** dengan efek blur dan menu hamburger mobile
 - **Hero section** — headline bergaya stroke outline, tagline, CTA, dan statistik dengan animasi counter
   - 120+ proyek selesai
-  -  8+ tahun pengalaman
+  - 8+ tahun pengalaman
   - 98% klien puas
   - 24/7 dukungan aktif
 - **Marquee teknologi** berjalan (React, Next.js, Laravel, Flutter, dll.)
