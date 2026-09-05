@@ -75,12 +75,15 @@ Atau cukup buka file `index.html` langsung di browser — semua aset sudah inlin
 
 ```text
 .
-├── index.html          # Halaman utama (semua CSS inline di <style>)
-├── script.js            # JavaScript eksternal (interaktivitas)
-├── preview-hero.png    # Screenshot tampilan hero
-├── preview-kontak.png  # Screenshot tampilan kontak
-├── README.md           # Dokumentasi ini
-└── AGENTS.md           # Catatan teknis untuk agen AI
+├── index.html              # Halaman utama (semua CSS inline di <style>)
+├── script.js                # JavaScript eksternal (interaktivitas)
+├── assets/
+│   ├── hero-bg.jpg         # Gambar latar hero (coding/teknologi)
+│   └── cta-bg.jpg          # Gambar latar section CTA
+├── preview-hero.png        # Screenshot tampilan hero
+├── preview-kontak.png      # Screenshot tampilan CTA/kontak
+├── README.md               # Dokumentasi ini
+└── AGENTS.md               # Catatan teknis untuk agen AI
 ```
 
 ---
@@ -89,10 +92,11 @@ Atau cukup buka file `index.html` langsung di browser — semua aset sudah inlin
 
 - **Tema**: Light modern dengan radial gradient pastel (hijau mint, biru, ungu, oranye) di latar
 - **Aksen**: Biru `#2563eb` dan biru muda `#0ea5e9`
+- **Gambar latar**: Hero memakai foto coding/teknologi (dengan overlay light gradient), section CTA memakai foto keamanan siber dengan overlay gradient biru
 - **Kartu**: Glassmorphism — `rgba(255,255,255,0.6)` + `backdrop-filter: blur(12px)` + border putih + bayangan halus
 - **Tipografi**: *Inter* untuk seluruh teks
 - **Ikon**: Font Awesome 6.5.1
-- **Detail visual**: badge/eyebrow pill, section bernomor, progress bar gradient, chip teknologi, marquee layanan
+- **Detail visual**: badge/eyebrow pill, section bernomor, progress bar gradient, chip teknologi, marquee layanan, CTA banner
 
 ---
 

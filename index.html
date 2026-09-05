@@ -191,6 +191,48 @@ footer { border-top:1px solid rgba(15,23,42,0.08); background:rgba(255,255,255,0
   .marquee-track { animation:none;; }
 }
 
+
+/* ===== hero background image ===== */
+.hero {
+  background:
+    linear-gradient(120deg, rgba(240,253,250,0.92) 0%, rgba(239,246,255,0.82) 40%, rgba(245,243,255,0.6) 100%),
+    url('assets/hero-bg.jpg') center/cover no-repeat;
+}
+.hero::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0) 60%, rgba(240,253,250,0.9) 100%);
+  pointer-events:none;
+  z-index:0;
+}
+.hero .wrap { z-index:2; }
+
+/* ===== CTA section with background ===== */
+.cta-section {
+  position:relative;
+  border-radius:28px;
+  overflow:hidden;
+  padding:clamp(48px,7vw,80px);
+  background:
+    linear-gradient(135deg, rgba(37,99,235,0.92), rgba(14,165,233,0.85)),
+    url('assets/cta-bg.jpg') center/cover no-repeat;
+  color:#fff;
+  text-align:center;
+}
+.cta-section h2 {
+  font-size:clamp(26px,4vw,44px);
+  font-weight:800;
+  letter-spacing:-0.03em;
+  line-height:1.15;
+  max-width:20ch;
+  margin:0 auto 18px;
+  color:#fff;
+}
+.cta-section p { color:rgba(255,255,255,0.85); font-size:16px; max-width:52ch; margin:0 auto 30px; }
+.cta-section .btn { background:#fff; color:var(--brand); box-shadow:0 12px 30px -8px rgba(0,0,0,0.3); }
+.cta-section .btn:hover { transform:translateY(-2px); box-shadow:0 18px 36px -8px rgba(0,0,0,0.35); }
+
 </style>
 </head>
 <body>
@@ -389,6 +431,17 @@ footer { border-top:1px solid rgba(15,23,42,0.08); background:rgba(255,255,255,0
         <p>“Dari desain sampai peluncuran hanya 6 minggu. Aplikasi kasir kami dipakai 40+ cabang.”</p>
         <footer class="quote__who"><div class="quote__ava">SN</div><div><b>Sari Nurdiyanti</b><span>Direktur · Toko Sembako Makmur Group</span></div></footer>
       </blockquote>
+    </div>
+  </div>
+</section>
+
+
+<section class="sec" style="padding-block:clamp(30px,5vw,50px);">
+  <div class="wrap">
+    <div class="cta-section reveal">
+      <h2>Punya ide? Mari kita wujudkan dalam <em style="color:#fff;font-style:normal;">30 hari</em> atau kurang.</h2>
+      <p>Konsultasi gratis untuk memahami kebutuhan Anda — tanpa komitmen, tanpa embel-embel.</p>
+      <a href="#kontak" class="btn">Jadwalkan Konsultasi <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 </section>
