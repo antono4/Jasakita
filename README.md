@@ -51,6 +51,14 @@ Website landing page profesional untuk **jasa pembuatan aplikasi dan website** m
 
 ---
 
+## 🖼️ Screenshot
+
+| Tampilan Hero | Tampilan Kontak |
+|---|---|
+| ![Hero](preview-hero.png) | ![Kontak](preview-kontak.png) |
+
+---
+
 ## 🚀 Cara Menjalankan
 
 ### Lokal (via Python HTTP Server)
@@ -71,10 +79,12 @@ Atau cukup buka file `index.html` langsung di browser — semua aset sudah inlin
 
 ```text
 .
-├── index.html     # Halaman utama (semua CSS inline di <style>)
-├── script.js       # JavaScript eksternal (interaktivitas)
-├── README.md       # Dokumentasi ini
-└── AGENTS.md       # Catatan teknis untuk agen AI
+├── index.html          # Halaman utama (semua CSS inline di <style>)
+├── script.js            # JavaScript eksternal (interaktivitas)
+├── preview-hero.png    # Screenshot tampilan hero
+├── preview-kontak.png  # Screenshot tampilan kontak
+├── README.md           # Dokumentasi ini
+└── AGENTS.md           # Catatan teknis untuk agen AI
 ```
 
 ---
