@@ -1,1 +1,26 @@
-Last updated: 2026-11-03 10:44:58 WIB
+# Jasakita
+
+
+
+## 📋 Overview
+
+This repository contains **13 files** and is built with the following technologies:
+
+HTML, JavaScript
+
+## 🚀 Quick Start
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+HTML, JavaScript
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-11-03 16:58:03 WIB*
